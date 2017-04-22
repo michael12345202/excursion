@@ -1,0 +1,26 @@
+* {
+  background-color : black;
+  color : white;
+  text-align : center;
+  font-family : Verdana;
+}
+.head1 {
+  font-size : 50px;
+  font-weight: normal;
+
+}
+.smallhead {
+  font-size : 16px;
+  color : aquamarine /* !important */ ;
+  }
+.txtfoot {
+  font-size : 14px;
+  text-align : right;
+}
+p {
+  color : grey;
+}
+.head2 {
+  font-size: 42px;
+  font-weight : 300;
+}
