@@ -1,0 +1,45 @@
+* {
+  font-family : Helvetica;
+  text-align: center;
+  color: grey;
+}
+#header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+
+  /* height: 300px;
+  width : 1900px; */
+
+}
+.top h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color : white;
+}
+.tlist {
+  font-size: 18px;
+  color : white;
+}
+h2 {
+   font-size: 32px;
+   font-weight: bold;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+#home {
+  font-size: 14px;
+}
+#backhead {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  height: 30px;
+  color: white;
+}
+#footer {
+  display: inline;
+  background-color: grey;
+  height: 40px
+  color : white;
+  text-align: left;
+   /* The display inline is working but rest of the properties are notworking */
+}
