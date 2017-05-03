@@ -5,8 +5,8 @@
 }
 #header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
-
-  /* height: 300px;
+/*  color: white;
+   height: 300px;
   width : 1900px; */
 
 }
@@ -15,13 +15,14 @@
   font-weight: bold;
   color : white;
 }
-.tlist {
+h3.tlist {
   font-size: 18px;
   color : white;
 }
 h2 {
    font-size: 32px;
    font-weight: bold;
+   background-color: lightblue;
 }
 h3 {
   font-size: 23px;
@@ -35,11 +36,11 @@ h3 {
   height: 30px;
   color: white;
 }
-#footer {
-  display: inline;
-  background-color: grey;
-  height: 40px
+#footer.footline {
+/*  display: inline; */
+  height: 50px
   color : white;
-  text-align: left;
+  text-align: left !important;
+    background-color: grey !important;
    /* The display inline is working but rest of the properties are notworking */
 }

@@ -1,0 +1,3 @@
+Creating pages to deploy website
+Hello Git and Github pages
+Creating Repositories and using command line

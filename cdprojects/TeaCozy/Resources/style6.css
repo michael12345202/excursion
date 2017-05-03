@@ -1,0 +1,148 @@
+ * {
+  background-color: black;
+  color: seashell;
+  font-size:22px;
+  font-family: Helvetica;
+  text-align: center;
+}
+/* Top Header */
+.header {
+  height:69px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+ .header img {
+  justify-content: flex-start;
+  height: 50px;
+  width:200px;
+  margin-right: 450px;
+  }
+
+.header nav {
+
+  padding-bottom: 10px;
+  flex-shrink: 1;
+  display : flex;
+  width: 1000;
+}
+
+.header h2{
+   width: 200px;
+   align-text: center;
+   flex:1;
+}
+
+/* Mission section of HTML */
+
+.mission {
+  height: 700px;
+  margin-top: 10px;
+  width:1200px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.missioncenter{
+  background-color: bleck;
+  height: 80px;
+}
+
+/* Tea Section of the page */
+.tea {
+  width:1000px;
+  margin-left:100;
+  margin-right:100;
+  margin-top:10px;
+  margin-bottom: 10px;
+  height:700px;
+  }
+
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+.tea h4 {
+  padding-top: 10px;
+  margin-top:10px;
+  padding-left:10px;
+  width:300px;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left:120px;
+}
+.row2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-left: 120px;
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Location section code */
+
+
+
+
+.locationsection {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+   height: 700px;
+   width: 1200px;
+   margin:20px;
+
+}
+
+.lochead h2{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 40px;
+  color: grey;
+  margin-bottom:30px;
+}
+
+.allloc {
+   display: flex;
+   flex-flow: row;
+  justify-content: space-around;
+   opacity:0.5;
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    font-size:12px;
+    font-weight: normal;
+    border:1px solid red;
+}
+
+
+
+
+/* Code for Footer section */
+.footer{
+  margin:20px;
+  height:200px;
+
+}
+
+.bottomline {
+  margin-top:10px;
+  justify-content: left;
+}
