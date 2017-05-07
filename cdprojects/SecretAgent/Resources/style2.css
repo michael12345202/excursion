@@ -1,0 +1,107 @@
+html {
+  font-size: 16px;
+  color: white;
+}
+.t1 {
+  background-color: black;
+  height: 70px;
+  display: flex;
+  align-items: left;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.t1 img {
+
+  width: 6%;
+  margin-right: 2em;
+}
+.t2 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+  .nat2 {
+    background-color:black;
+    height: 50%;
+    width: 25%;
+    display: block;
+    margin-top : 2em;
+    margin-botoom: 2em;
+
+  }
+.nat2 p {
+  font-size: 1rem;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.nat2 h1 {
+  font-size: 2rem;
+  margin-left: 5%;
+
+}
+.menubar {
+  background-color: red;
+  display: flex;
+
+}
+.menubar li{
+  display: inline-block;
+  font-size: 1.5 rem;
+  padding: 1rem 3rem;
+  margin: 0rem 3rem;
+}
+.ticons {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  margin-left:15%;
+}
+
+.fr {
+  display: block;
+  border: 1px solid black;
+  width:15em;
+  height:15em;
+  margin:2em;
+
+}
+
+.fr h4{
+  background-color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  width:100%;
+}
+.f1 ,.f2 {
+  display:inline-block;
+}
+
+.footer .f1 h2, .footer .f2 h2{
+  background-color: black;
+  width:100%;
+  height:60%;
+  margin-left:2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.footer .f1 span, .footer .f2 span {
+  color: black;
+  font-size:0.75rem;
+}
+@media only screen and (max-width:1025px) {
+  .t1 h{
+    font-size: 0.75rem;
+  }
+  .ticons {
+     display: none;
+   }
+
+}
