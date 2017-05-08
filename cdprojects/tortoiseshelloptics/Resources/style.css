@@ -1,0 +1,95 @@
+html {
+  font-size: 18px;
+/*  width: 960px; */
+  font-family: Helvetica;
+}
+.section1{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png" );
+  height: 30rem;
+  width: 100%;
+  background-size: cover;
+ }
+.header {
+  width:960px;
+  display: flex;
+  margin-top: 1rem;
+  background-color: cadetblue;
+  margin-left: 5rem;
+  margin-right:2rem;
+}
+.header h3{
+  font-size: 1rem;
+  margin-right: 10rem;
+}
+.header img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.header li{
+   margin-left: 2rem;
+   margin-top: 1rem;
+   display: inline;
+}
+.subsection2 {
+  width:40%;
+  background-color: white;
+  margin-top: 10rem;
+  margin-left: 30rem;
+  height: 6rem;
+
+}
+.subsection2 h1{
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 2rem;
+  margin: 1.5rem 5rem;
+}
+.section2 {
+   width: 100%;
+   margin-bottom:3rem;
+}
+.sec2sub1 {
+  height: 8rem;
+  margin: 3rem 5rem;
+  display: flex;
+  /*justify-content: center;
+  align-content: flex-end; */
+}
+
+.icon1, .icon2, .icon3 {
+  display: block;
+  margin-right:6rem;
+}
+.section3 {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.sec3sub1,.sec3sub2 {
+  width: 35%;
+  display: block;
+  margin-right :5%;
+}
+.sec3sub1 h3,.sec3sub2 h3 {
+    width: 10rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: cadetblue;
+  }
+  .footer {
+    background-color: azure;
+
+  }
+  .footsec1 {
+    display: flex;
+  }
+.footer img,.footer p{
+  margin:4rem 1rem 4rem 4rem;
+  height:1.5rem;
+}
