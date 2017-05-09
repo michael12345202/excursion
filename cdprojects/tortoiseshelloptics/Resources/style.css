@@ -10,12 +10,14 @@ html {
   background-size: cover;
  }
 .header {
-  width:960px;
+/*  width:960px; */
+   width: 80%;
   display: flex;
   margin-top: 1rem;
   background-color: cadetblue;
   margin-left: 5rem;
   margin-right:2rem;
+  color: white;
 }
 .header h3{
   font-size: 1rem;
@@ -36,8 +38,8 @@ html {
   width:40%;
   background-color: white;
   margin-top: 10rem;
-  margin-left: 30rem;
-  height: 6rem;
+  margin-left: 40rem;
+/*  height: 6rem;*/
 
 }
 .subsection2 h1{
@@ -49,6 +51,7 @@ html {
 .section2 {
    width: 100%;
    margin-bottom:3rem;
+   margin-left: :15rem;
 }
 .sec2sub1 {
   height: 8rem;
@@ -64,23 +67,29 @@ html {
 }
 .section3 {
   display: flex;
-  margin-top: 3rem;
+  margin-top: 7rem;
   margin-bottom: 5rem;
+  margin-left:10rem;
 }
 .sec3sub1,.sec3sub2 {
   width: 35%;
-  display: block;
+  display: inline-block;
   margin-right :5%;
 }
 .sec3sub1 h3,.sec3sub2 h3 {
     width: 10rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
     font-weight: bold;
     font-size: 1rem;
     color: white;
     background-color: cadetblue;
+  }
+
+  .section3 span{
+    flex-wrap: wrap;
+    margin-top: 1rem;
   }
   .footer {
     background-color: azure;
@@ -92,4 +101,74 @@ html {
 .footer img,.footer p{
   margin:4rem 1rem 4rem 4rem;
   height:1.5rem;
+}
+@media only screen and(max-width: 480px) {
+
+  .header {
+    width:100%;
+  }
+  .header li{
+    display: none;
+  }
+  .section1 {
+    height: 17rem;
+    width:100%;
+  }
+  .subsection2 {
+    margin-top:9rem;
+    margin-left: 0rem;
+    width:100%;
+    text-align: center;
+  }
+  .subsection2 h1{
+    margin-top:1rem;
+    mrgin-botoom:1rem;
+  }
+  .section2 {
+    margin-top: 3.77rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 3.77rem;
+
+  }
+  .icon1, .icon2, .icon3 {
+    margin-top:1.54rem;
+    width: 100%
+  }
+  .section2 h4{
+    font-size: 0.77rem;
+  }
+  .section3 {
+    display:block;
+    margin-left:0rem;
+
+  }
+  .sec3sub1, .sec3sub2 {
+    width: 100%;
+
+  }
+  .section3 span{
+    margin-top:1rem;
+    margin-bottom:4rem;
+  }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+  .section1 {
+    height:22rem;
+    width: 100%;
+  }
+  .subsection2 {
+    margin-top: 5rem;
+    margin-right: 2 rem;
+
+  }
+  .subsection2 h1{
+    font-size: 1.33rem;
+    margin:0.75rem 4rem;
+
+  }
 }

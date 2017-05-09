@@ -1,0 +1,91 @@
+html {
+  font-size: 17px;
+  color: black;
+  font-family: Georgia;
+}
+.header {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+.header h4{
+  color: MediumAquamarine;
+  margin-right: 45rem;
+}
+.header h3 {
+  display: inline;
+  margin: 1rem;
+
+}
+.webpage {
+  display: flex;
+}
+.leftmain {
+  width: 630px;
+  margin-right: 3rem;
+}
+.leftpart2 {
+  display: flex;
+}
+.middlemain {
+  width: 300px;
+  margin-right: 3rem;
+}
+.rightmain {
+  width:240px;
+}
+.rightmain h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.rightmain span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+.imagesection1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  /*justify-content: center;*/
+  align-text: center;
+  background-size: cover;
+  height:20rem;
+}
+.textonimg {
+  font-weight:bold;
+  font-size:30px;
+  color: white;
+}
+#mshead {
+  font-size: 40px;
+}
+
+.leftpart2section {
+  margin-right: 2rem;
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+
+}
+.fsection {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.fsection h2 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight:bold;
+  color: white;
+}
+/* Inline is not working for the nav section */
+.fsection nav {
+  display: inline;
+}
