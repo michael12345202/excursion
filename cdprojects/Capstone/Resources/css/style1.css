@@ -1,0 +1,290 @@
+     html {
+     font-size: 16px;
+     /* font-family: helvetica, "Garamond","Times",serif : "Arial",sans-serif; */
+     }
+
+  /* Latin 400 */
+  @font-face {
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+ }
+ /* latin 700 */
+ @font-face {
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v1/vdpMRWfyjfCvDYTz00NEPIWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+ }
+ .latin {
+   font-family: 'Spce Mono';
+   font-size: 1.30rem;
+ }
+   h1,h2,h3,h4 {
+     color: hsl(11,8%,6%);
+   }
+   p {
+       color: #808080;
+   }
+   /* top header section */
+   .header {
+     display: flex;
+     height: 64px;
+     width: 100%;
+     margin-bottom:5px;
+   }
+
+   .logo {
+     margin-left: 24px;
+     width: 5rem;
+     height: 5.5rem;
+   }
+
+   .header #c1 {
+      margin-top:10px;
+    /*  margin-bottom: 10px;*/
+      margin-right:0px;
+      color: hsl(11, 7%, 9%);
+   }
+   .header #c2 {
+     color: hsl(11, 10%, 61%);
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left:0px;
+     width:40%;
+
+   }
+   .header nav {
+     width : 50%;
+     justify-items: right;
+     margin-top: 1rem;
+   }
+
+   .header h2 {
+     margin-right:1rem;
+     display:inline;
+   }
+   .header .mobile{
+     display:none;
+
+   }
+/* Learn something new */
+/* Main container of learn something new */
+ .learnnew {
+   display: flex;
+   width: 80rem;
+   height:32rem;
+   color: #808080;
+   margin-top: 1rem;
+   margin-left:24px;
+   background-color: #d3d3d3;
+   background-size: cover;
+  }
+/*left side learn something image */
+.learnimg {
+   width:60%;
+   height: 28rem;
+   margin-top:2rem;
+   margin-bottom:2rem;
+   margin-right:1.5rem;
+   margin-left: 1.5rem;
+}
+/* Right section of learn something*/
+.learntext {
+  display : block;
+  width: 423px;
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: left;
+  margin-right: 1.5rem;
+  margin-left: 1rem;
+  color: #696969;
+  font-family: lato;
+  font-size: 1.5rem;
+  font-weight:bolder;
+}
+.learntext #head2 {
+  padding-bottom: 0.3rem;
+}
+/* Start here button section */
+.learntext h3 {
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+   height: 3rem;
+   width: 80%;
+   background-color: #696969;
+   color: white;
+   font-family: roboto;
+   text-align: center;
+   padding-top: 1rem;
+}
+/* Keep Practicing section */
+/* Keep practice main container full section */
+.keeppractice {
+  display: flex;
+  width: 80rem;
+  height: 57rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+
+}
+/* Keep practice left side main container */
+.leftkp {
+  display: block;
+  width:60%;
+  height: 50rem;
+}
+/* Keep practice left side image */
+.practiceimg {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 1.5rem;
+  margin-left: 18px;
+  width: 100%;
+  height:70%;
+}
+/*keep practice text section */
+.practicetext {
+  margin-right:1.5rem;
+  margin-top: 0px;
+  margin-left:1.5rem;
+}
+.practicetext .pt1{
+  margin-bottom: 12px;
+  font-size: 900;
+}
+.practicetext .pt2{
+  margin-bottom: 2rem;
+  margin-top:12px;
+}
+.practicetext .pt3{
+  margin-top:2rem;
+}
+/* Keep practice right side main container */
+.rightkp {
+  display: block;
+  width: 40%;
+  /*margin-right: 24px;
+  margin-left: 16px; */
+  height: 50rem;
+  color: #696969;
+  }
+/* Keep practice right side small containers */
+.kporientation, .kpcampus, .kpglecture {
+  display: flex;
+  width: 95%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+/* right side icons of keep practice */
+.rightkp img {
+  width: 50%;
+  height:25%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left:1rem;
+  margin-right:5px;
+}
+.kptext1, .kptext2, .kptext3 {
+  display: block;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.rightkp.line1 {
+  padding-bottom: 8px;
+  font-family: loto;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.rightkp.line3 {
+  padding-top: 8px;
+}
+/* Start Learning Section */
+/* Start learning section main container */
+.startlearn {
+  display:block;
+  margin-top:24px;
+  background-color: #d3d3d3 ;
+  background-size: cover;
+  width: 80rem;
+  height: 130rem;
+  padding-left: 2rem;
+  margin-left: 1.5rem;
+  font-family: Arial,serif;
+  font-size: 1.5rem;
+}
+/* Start learning section container for first row */
+.stlearn1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+/* Start learning section container for 2nd row and 3rd row*/
+.stlearn2, .stlearn3 {
+  display: flex;
+  /*margin-bottom: 1.5rem; */
+  margin-bottom: 0.5rem;
+  padding-left: 2rem;
+  height:48%
+}
+
+
+/* start learning small containers for each icon and its details */
+.stln2p1, .stln2p2, .stln2p3,.stln3p1,.stln3p2,.stln3p3 {
+  display: block;
+  width: 30%;
+  height: 80% ;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right:1rem;
+  margin-bottom: 0.5rem;
+  background-color: hsl(192, 15%, 99%);
+}
+.stlnimage {
+  height: 50%;
+  width:100%;
+}
+.stlearntext {
+   height: 50%;
+   width: 100%;
+
+   padding-left: 0.5rem;
+   margin-left: 1rem;
+}
+.stlearntext h3{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.5rem;
+  font-weight: bolder;
+}
+.stlearntext h4 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-stretch: expanded;
+}
+.stlearntext p {
+  font-weight: normal;
+}
+/* Media Queries Section */
+/* Desktop Section */
+@media only screen and (min-width: 1020px) {
+  .mobile {
+    display: none;
+  }
+}
+/* Mobile Section */
+@media only screen and (min-width:200px) and (max-width: 400px) {
+  .header h2, #c1,#c2 {
+    display: none;
+  }
+
+}
