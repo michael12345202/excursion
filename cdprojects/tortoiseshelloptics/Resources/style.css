@@ -102,6 +102,8 @@ html {
   margin:4rem 1rem 4rem 4rem;
   height:1.5rem;
 }
+
+/* Not sure why Media query is not working */
 @media only screen and(max-width: 480px) {
 
   .header {

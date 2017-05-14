@@ -4,6 +4,12 @@
   font-family: Helvetica;
   font-size: 22px;
   text-align: center;
+    }
+
+    /* In googlechrome there is gap between the web page and google chromet
+    menu bar byt margin :0 did notwor */
+  body {
+    margin: 0%;
   }
 /* Top Header */
 .header {
@@ -13,7 +19,7 @@
   border-bottom: 1px solid seashell;
   display: flex;
   margin-bottom: 10px;
-
+  margin-top: 0%;
 }
 
  .header img {
@@ -146,5 +152,5 @@ h1 {
 
 #bt {
   margin-top:10px;
-  text-align: : left;
+  text-align: left;
 }
