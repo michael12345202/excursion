@@ -43,28 +43,30 @@
 
    }
 /* Learn something new */
-
+/* Main container of learn something new */
  .learnnew {
    display: flex;
-   width: 100%;
-   height:30rem;
-   color: #808090;
-   mrgin-top: 1rem;
+   width: 80rem;
+   height:32rem;
+   color: #808080;
+   margin-top: 1rem;
    margin-left:24px;
+   background-color: #d3d3d3;
+   background-size: cover;
   }
-
+/*left side learn something image */
 .learnimg {
    width:60%;
    height: 28rem;
    margin-top:32px;
    margin-bottom:32px;
    margin-right:24px;
-   margin-left: 5px;
+   margin-left: 24px;
 }
+/* Right section of learn something*/
 .learntext {
-
   display : block;
-  width: 40%;
+  width: 423px;
   padding-top: 6rem;
   align-items: center;
   justify-content: left;
@@ -73,6 +75,7 @@
   color: #696969;
   font-weight:bold;
 }
+/* Start here button section */
 .learntext h3 {
    margin-top: 8px;
    margin-bottom: 8px;
@@ -82,4 +85,63 @@
    color: white;
    text-align: center;
    padding-top: 1rem;
+}
+/* Keep Practicing section */
+.keeppractice {
+  display: flex;
+  width: 80rem;
+  height: 60rem;
+  margin-left: 24px;
+}
+.leftkp {
+  display: block;
+  width:60%;
+  height: 40rem;
+}
+.practiceimg {
+  margin-top:32px;
+  margin-bottom:32px;
+  margin-right:24px;
+  margin-left: 24px;
+  width: 100%;
+  height:70%;
+}
+
+.rightkp {
+  display: block;
+  width: 40%;
+  margin-right: 24px;
+  margin-left: 16px;
+  height: 40rem;
+  }
+
+.kporientation, .kpcampus, .kpglecture {
+  display: flex;
+  width: 95%;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+.rightkp img {
+  width: 50%;
+  height:30%;
+}
+.kptext1, .kptext2, .kptext3 {
+  display: block;
+  padding-left: 2rem;
+  margin-left: 1rem;
+}
+
+/* Media Queries Section */
+/* Desktop Section */
+@media only screen and (min-width: 1020px) {
+  .mobile {
+    display: none;
+  }
+}
+/* Mobile Section */
+@media only screen and (min-width:200px) and (max-width: 400px) {
+  .header h2, #c1,#c2 {
+    display: none;
+  }
+
 }
