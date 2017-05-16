@@ -66,10 +66,12 @@
      margin-right:1rem;
      display:inline;
    }
-   .header .mobile{
+  /* .header .mobile{
      display:none;
 
-   }
+   } */
+
+
 /* Learn something new */
 /* Main container of learn something new */
  .learnnew {
@@ -107,6 +109,9 @@
 }
 .learntext #head2 {
   padding-bottom: 0.3rem;
+}
+#head1, #head2 {
+  font-weight: bolder;
 }
 /* Start here button section */
 .learntext h3 {
@@ -393,7 +398,7 @@
   }
 }
 /* Mobile Section */
-@media only screen and (min-width:200px) and (max-width: 400px) {
+@media only screen and (min-width:200px) and (max-width: 680px) {
   .header h2, #c1,#c2 {
     display: none;
   }
