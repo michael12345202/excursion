@@ -214,11 +214,14 @@
   background-color: #d3d3d3 ;
   background-size: cover;
   width: 80rem;
-  height: 130rem;
-  padding-left: 2rem;
-  margin-left: 1.5rem;
+  /*height: 130rem;*/
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-family: Arial,serif;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 /* Start learning section container for first row */
 .stlearn1 {
@@ -232,33 +235,44 @@
 .stlearn2, .stlearn3 {
   display: flex;
   /*margin-bottom: 1.5rem; */
-  margin-bottom: 0.5rem;
-  padding-left: 2rem;
-  height:48%
+  margin-bottom: 0.9rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  margin-left:0.5rem;
+/*  height:48% */
 }
+
 
 
 /* start learning small containers for each icon and its details */
 .stln2p1, .stln2p2, .stln2p3,.stln3p1,.stln3p2,.stln3p3 {
-  display: block;
+  display:block;
   width: 30%;
-  height: 80% ;
+  height: 80%;
   margin-top: 0.5rem;
   margin-left: 1rem;
   margin-right:1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   background-color: hsl(192, 15%, 99%);
+  padding-bottom: :2rem;
 }
+.stln2p1,.stln2p3 {
+  padding-bottom: 3rem;
+}
+.stln3p2,.stln3p3 {
+  padding-bottom: 2.20rem;
+}
+
 .stlnimage {
   height: 50%;
-  width:100%;
+ width:100%;
 }
 .stlearntext {
    height: 50%;
    width: 100%;
-
    padding-left: 0.5rem;
-   margin-left: 1rem;
+   margin-left: 0.5rem;
+   padding-bottom: 1.5rem;
 }
 .stlearntext h3{
   padding-top: 1rem;
@@ -267,13 +281,112 @@
   font-weight: bolder;
 }
 .stlearntext h4 {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-stretch: expanded;
 }
-.stlearntext p {
-  font-weight: normal;
+/* Thesis exhibit */
+.thesis {
+  display: block;
+  width: 80rem;
+  height: 40rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left:1.75rem;
 }
+.thesisheader {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 2rem;
+}
+.secondrow {
+  display:flex;
+   width:100%;
+  }
+
+.thesisleft {
+  width: 60%;
+  margin-left:1.5rem;
+  margin-right:1rem;
+}
+.thesisright {
+  width: 423px;
+  margin-left: 1.5rem;
+  margin-right:0.5rem;
+  display: block;
+  font-family: roboto;
+  font-size: 400;
+}
+.fisma, .nowthen {
+  display: flex;
+  width: 100%;
+  width: 423px;
+  height: 168px;
+}
+.nowthen {
+  margin-top:1rem;
+}
+.nowtext, .fismatext {
+   margin-top: 0.5rem;
+
+}
+
+.thesisimage {
+  width: 50%;
+  height:90%;
+  margin:1rem;
+}
+
+.thirdrow {
+  text-align: left;
+  width:60%;
+  font-family "Space Mono";
+  color: rgb(52,73,94);
+
+  margin-left: 1.5rem;
+/*  margin-bottom: 2rem; */
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.thirdrow h2 {
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+/* last section */
+.lastsection {
+  margin-left:1.5rem;
+  padding-left:0.5rem;
+  text-align: left;
+  margin-top:2.5rem;
+  display: flex;
+    font-size: 1.5rem;
+    border-top: solid hsl(210, 14%, 39%);
+    border-bottom: solid hsl(210, 14%, 39%);
+    padding-bottom: 2rem
+    margin-bottom: 1rem;
+
+}
+.lastsection p{
+  padding-right: 20rem;
+  margin-right: 3rem;
+}
+#h5term {
+  padding-left: 15rem;
+  margin-left: 2rem;
+  color: hsl(210, 14%, 39%);
+  padding-right: 0.5rem;
+}
+
+#h5privacy {
+  padding-left: 1.5rem;
+  padding-right:0.5rem;
+}
+
+
 /* Media Queries Section */
 /* Desktop Section */
 @media only screen and (min-width: 1020px) {
@@ -285,6 +398,12 @@
 @media only screen and (min-width:200px) and (max-width: 400px) {
   .header h2, #c1,#c2 {
     display: none;
+  }
+  .desk {
+    display: none;
+  }
+  .mobile {
+    display: inline;
   }
 
 }
