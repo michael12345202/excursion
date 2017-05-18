@@ -1,7 +1,6 @@
-     html {
+  html {
      font-size: 16px;
-
-     }
+}
 
   /* Latin 400 */
   @font-face {
@@ -19,7 +18,7 @@
    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v1/vdpMRWfyjfCvDYTz00NEPIWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
  }
- #desktop.latin {
+.latin {
    font-family: 'Spce Mono';
    font-size: 1.30rem;
  }
@@ -30,51 +29,46 @@
        color: #808080;
    }
    /* top header section */
-   #desktop.header {
+.header {
      display: flex;
      height: 64px;
      width: 100%;
      margin-bottom:5px;
    }
 
-   #desktop.logo {
-     margin-left: 24px;
+.logo {
+     margin-left: 1.5rem;
      width: 5rem;
      height: 5.5rem;
    }
 
-   #desktop.header #c1 {
+ #c1 {
       margin-top:10px;
       margin-right:0px;
       color: hsl(11, 7%, 9%);
    }
-   #desktop.header #c2 {
+#c2 {
      color: hsl(11, 10%, 61%);
      margin-top: 10px;
      margin-bottom: 10px;
      margin-left:0px;
      width:40%;
-
    }
-   #desktop.header nav {
+.header nav {
      width : 50%;
      justify-items: right;
      margin-top: 1rem;
    }
 
-   #desktop.header h2 {
+.header h2 {
      margin-right:1rem;
      display:inline;
    }
-  /* .header .mobile{
-     display:none;
-
-   } */
 
 
 /* Learn something new */
 /* Main container of learn something new */
- #desktop.learnnew {
+.learnnew {
    display: flex;
    width: 80rem;
    height:32rem;
@@ -85,7 +79,7 @@
    background-size: cover;
   }
 /*left side learn something image */
-#desktop.learnimg {
+.learnimg {
    width:60%;
    height: 28rem;
    margin-top:2rem;
@@ -94,7 +88,7 @@
    margin-left: 1.5rem;
 }
 /* Right section of learn something*/
-#desktop.learntext {
+.learntext {
   display : block;
   width: 423px;
   padding-top: 3rem;
@@ -107,14 +101,14 @@
   font-size: 1.5rem;
   font-weight:bolder;
 }
-#desktop.learntext #head2 {
+#head2 {
   padding-bottom: 0.3rem;
 }
 #head1, #head2 {
   font-weight: bolder;
 }
 /* Start here button section */
-#desktop.learntext h3 {
+.learntext h3 {
    margin-top: 0.5rem;
    margin-bottom: 0.5rem;
    height: 3rem;
@@ -129,7 +123,7 @@
 
 /* Keep Practicing section */
 /* Keep practice main container full section */
-#desktop.keeppractice {
+.keeppractice {
   display: flex;
   width: 80rem;
   height: 57rem;
@@ -138,13 +132,13 @@
 
 }
 /* Keep practice left side main container */
-#desktop.leftkp {
+.leftkp {
   display: block;
   width:60%;
   height: 50rem;
 }
 /* Keep practice left side image */
-#desktop.practiceimg {
+.practiceimg {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-right: 1.5rem;
@@ -153,24 +147,24 @@
   height:70%;
 }
 /*keep practice text section */
-#desktop.practicetext {
+.practicetext {
   margin-right:1.5rem;
   margin-top: 0px;
   margin-left:1.5rem;
 }
-#desktop.practicetext .pt1{
+.practicetext .pt1{
   margin-bottom: 12px;
   font-size: 900;
 }
-#desktop.practicetext .pt2{
+.practicetext .pt2{
   margin-bottom: 2rem;
   margin-top:12px;
 }
-#desktop.practicetext .pt3{
+.practicetext .pt3{
   margin-top:2rem;
 }
 /* Keep practice right side main container */
-#desktop.rightkp {
+.rightkp {
   display: block;
   width: 40%;
   height: 50rem;
@@ -184,7 +178,7 @@
   margin-left: 2rem;
 }
 /* right side icons of keep practice */
-#desktop.rightkp img {
+.rightkp img {
   width: 50%;
   height:25%;
   margin-top: 1rem;
@@ -192,7 +186,7 @@
   margin-left:1rem;
   margin-right:5px;
 }
-#desktop.kptext1, #desktop.kptext2, #desktop.kptext3 {
+.kptext1, .kptext2, .kptext3 {
   display: block;
   padding-left: 0.5rem;
   padding-top: 1rem;
@@ -269,7 +263,7 @@
 
 .stlnimage {
   height: 50%;
- width:100%;
+  width:100%;
 }
 .stlearntext {
    height: 50%;
@@ -348,7 +342,6 @@
   width:60%;
   font-family "Space Mono";
   color: rgb(52,73,94);
-
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   font-size: 1.5rem;
@@ -371,7 +364,6 @@
     border-bottom: solid hsl(210, 14%, 39%);
     padding-bottom: 2rem
     margin-bottom: 1rem;
-
 }
 .lastsection p{
   padding-right: 20rem;
@@ -393,51 +385,137 @@
   width:100% ;
 
 }
-#mobile.header {
+.mobileheader {
   height: 64px;
   display: flex;
   align-content: center;
 }
-#mobileimg {
+.mobileimg {
   height:32px ;
   width:32px;
+  display: inline;
+  padding-right: 1rem;
+  padding-left:1rem;
+  margin-right:0.5rem;
+
 }
-#mobile.section1 {
+.mobilelearnimg {
+  width:100%;
+  height:180px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.mobilesection1 {
   display: block;
-  backgorund-color #d3d3d3;
+  background-color: #d3d3d3;
   margin-right: 1.5rem;
   margin-left: 1rem;
   color: #696969;
+  align-items: center;
+  justify-content: left;
   font-family: lato;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight:bolder;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
-#mobile.learnimg {
-  width: 100%;
-  height: 180px;
-  margin-bottom: 16px;
+.mobilesection1 h1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display:inline-block;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.mobilesection1 p {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+.mobilesection1 h3 {
+     margin-top: 0.5rem;
+     padding-top: 1.5rem;
+     padding-bottom:1.5rem;
+     margin-bottom: 0.5rem;
+     height: 2rem;
+     width: 80%;
+     background-color: #696969;
+     color: white;
+     font-family: roboto;
+     text-align: center;
+     padding-left: 1rem;
+     margin-left: 1rem;
+     border-radius: 10px;
   }
+  .mobilesection2 {
+    margin-top:16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-family: loto;
+    font-size:1.75rem;
+    color: hsl(210, 13%, 27%);
+  }
+.mobileimg2 {
+     width: 100%;
+     margin-top: 16px;
+     margin-right: 16px;
+     margin-bototm: 16px;
+
+}
+.mobilesection2 a {
+  margin-bottom:16px;
+}
+.mobilesection3 {
+  margin-top:16px;
+  margin-bottom:24px;
+}
+.mobilesection3 h1{
+  padding-top:16px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+/*  font-family: monospace;*/
+}
+.mobilesection3 h2 {
+  padding:16px;
+  margin-left:16px;
+  margin-bottom: 8px;
+  text-align: left;
+  background-color: hsl(210, 2%, 64%);
+  color: hsl(210, 13%, 27%);
+}
+.mobilesection4 h1 {
+  padding-top:32px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 3rem;
+/*  font-family: monospace;*/
+  font-weight: bolder;
+  margin:2px;
+}
+.mobilevideo {
+  margin-bottom: 24px;
+}
+.mobilesection4 p {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: center;
+  text-align: left;
+  margin-left: 16px;
+}
 /* Media Queries section */
 /* Desktop Section */
 @media only screen and (min-width: 681px) {
   #mobile {
     display: none;
   }
-}
-/* Mobile Section */
+}/* Mobile Section */
 @media only screen and (min-width:200px) and (max-width: 680px) {
 #desktop {
   display: none;
 }
-
-  .header h2, #c1,#c2 {
-    display: none;
-  }
-  .desk {
-    display: none;
-  }
-  .mobile {
-    display: inline;
-  }
 
 }
