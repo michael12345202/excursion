@@ -1,7 +1,6 @@
-     html {
+  html {
      font-size: 16px;
-     /* font-family: helvetica, "Garamond","Times",serif : "Arial",sans-serif; */
-     }
+}
 
   /* Latin 400 */
   @font-face {
@@ -19,7 +18,7 @@
    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v1/vdpMRWfyjfCvDYTz00NEPIWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
  }
- .latin {
+.latin {
    font-family: 'Spce Mono';
    font-size: 1.30rem;
  }
@@ -30,50 +29,46 @@
        color: #808080;
    }
    /* top header section */
-   .header {
+.header {
      display: flex;
      height: 64px;
      width: 100%;
      margin-bottom:5px;
    }
 
-   .logo {
-     margin-left: 24px;
+.logo {
+     margin-left: 1.5rem;
      width: 5rem;
      height: 5.5rem;
    }
 
-   .header #c1 {
+ #c1 {
       margin-top:10px;
-    /*  margin-bottom: 10px;*/
       margin-right:0px;
       color: hsl(11, 7%, 9%);
    }
-   .header #c2 {
+#c2 {
      color: hsl(11, 10%, 61%);
      margin-top: 10px;
      margin-bottom: 10px;
      margin-left:0px;
      width:40%;
-
    }
-   .header nav {
+.header nav {
      width : 50%;
      justify-items: right;
-     margin-top: 10px;
+     margin-top: 1rem;
    }
 
-   .header h2 {
-     margin-right:16px;
+.header h2 {
+     margin-right:1rem;
      display:inline;
    }
-   .header .mobile{
-     display:none;
 
-   }
+
 /* Learn something new */
 /* Main container of learn something new */
- .learnnew {
+.learnnew {
    display: flex;
    width: 80rem;
    height:32rem;
@@ -87,10 +82,10 @@
 .learnimg {
    width:60%;
    height: 28rem;
-   margin-top:32px;
-   margin-bottom:32px;
-   margin-right:24px;
-   margin-left: 24px;
+   margin-top:2rem;
+   margin-bottom:2rem;
+   margin-right:1.5rem;
+   margin-left: 1.5rem;
 }
 /* Right section of learn something*/
 .learntext {
@@ -99,20 +94,23 @@
   padding-top: 3rem;
   align-items: center;
   justify-content: left;
-  margin-right: 24px;
-  margin-left: 16px;
+  margin-right: 1.5rem;
+  margin-left: 1rem;
   color: #696969;
   font-family: lato;
   font-size: 1.5rem;
   font-weight:bolder;
 }
-.learntext #head2 {
+#head2 {
   padding-bottom: 0.3rem;
+}
+#head1, #head2 {
+  font-weight: bolder;
 }
 /* Start here button section */
 .learntext h3 {
-   margin-top: 8px;
-   margin-bottom: 8px;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
    height: 3rem;
    width: 80%;
    background-color: #696969;
@@ -120,15 +118,21 @@
    font-family: roboto;
    text-align: center;
    padding-top: 1rem;
+   border-radius: 10px;
 }
+.learntext h3:hover{
+   color: rgb(209, 194, 46);
+  transition: color 0.3s ease-in 0.2;
+}
+
 /* Keep Practicing section */
 /* Keep practice main container full section */
 .keeppractice {
   display: flex;
   width: 80rem;
   height: 57rem;
-  margin-left: 24px;
-  margin-bottom: 24px;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
 
 }
 /* Keep practice left side main container */
@@ -139,18 +143,18 @@
 }
 /* Keep practice left side image */
 .practiceimg {
-  margin-top:32px;
-  margin-bottom:32px;
-  margin-right:24px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 1.5rem;
   margin-left: 18px;
   width: 100%;
   height:70%;
 }
 /*keep practice text section */
 .practicetext {
-  margin-right:24px;
+  margin-right:1.5rem;
   margin-top: 0px;
-  margin-left:24px;
+  margin-left:1.5rem;
 }
 .practicetext .pt1{
   margin-bottom: 12px;
@@ -167,8 +171,6 @@
 .rightkp {
   display: block;
   width: 40%;
-  /*margin-right: 24px;
-  margin-left: 16px; */
   height: 50rem;
   color: #696969;
   }
@@ -183,9 +185,9 @@
 .rightkp img {
   width: 50%;
   height:25%;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left:16px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left:1rem;
   margin-right:5px;
 }
 .kptext1, .kptext2, .kptext3 {
@@ -214,16 +216,19 @@
   background-color: #d3d3d3 ;
   background-size: cover;
   width: 80rem;
-  height: 90rem;
-  padding-left: 30px;
-  margin-left: 32px;
+  /*height: 130rem;*/
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-family: Arial,serif;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 /* Start learning section container for first row */
 .stlearn1 {
-  padding-top: 16px;
-  padding-bottom: 13px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   font-size: 2rem;
   font-weight: bolder;
@@ -231,23 +236,35 @@
 /* Start learning section container for 2nd row and 3rd row*/
 .stlearn2, .stlearn3 {
   display: flex;
-  padding-top: 2px;
-  padding-bottom: 1px;
-  margin-bottom: 2px;
-  padding-left: 28px;
-  height:40%
+  /*margin-bottom: 1.5rem; */
+  margin-bottom: 0.9rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  margin-left:0.5rem;
+
 }
+
+
 
 /* start learning small containers for each icon and its details */
 .stln2p1, .stln2p2, .stln2p3,.stln3p1,.stln3p2,.stln3p3 {
-  display: block;
-  width: 27%;
-  height: 100% ;
-/*  margin-bottom: 1rem;*/
-  margin-top: 1rem;
-  margin-left: 16px;
-  margin-right:16px;
+  display:blo ck;
+  width: 30%;
+  height: 80%;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right:1rem;
+  margin-bottom: 1.5rem;
+  background-color: hsl(192, 15%, 99%);
+  padding-bottom: :2rem;
 }
+.stln2p1,.stln2p3 {
+  padding-bottom: 3rem;
+}
+.stln3p2,.stln3p3 {
+  padding-bottom: 2.20rem;
+}
+
 .stlnimage {
   height: 50%;
   width:100%;
@@ -255,35 +272,269 @@
 .stlearntext {
    height: 50%;
    width: 100%;
-
-  padding-bottom: 24px;
-  padding-left: 16px;
+   padding-left: 0.5rem;
+   margin-left: 0.5rem;
+   padding-bottom: 1.5rem;
 }
 .stlearntext h3{
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
   line-height: 1.5rem;
   font-weight: bolder;
 }
 .stlearntext h4 {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-stretch: expanded;
 }
-.stlearntext p {
-  font-weight: 500;
+/* Thesis exhibit */
+.thesis {
+  display: block;
+  width: 80rem;
+  height: 40rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left:1.75rem;
 }
-/* Media Queries Section */
+.thesisheader {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 2rem;
+}
+.secondrow {
+  display:flex;
+   width:100%;
+  }
+
+.thesisleft {
+  width: 60%;
+  margin-left:1.5rem;
+  margin-right:1rem;
+}
+.thesisright {
+  width: 423px;
+  margin-left: 1.5rem;
+  margin-right:0.5rem;
+  display: block;
+  font-family: roboto;
+  font-size: 400;
+}
+.fisma, .nowthen {
+  display: flex;
+  width: 100%;
+  width: 423px;
+  height: 168px;
+}
+.nowthen {
+  margin-top:1rem;
+}
+.nowtext, .fismatext {
+   margin-top: 0.5rem;
+
+}
+
+.thesisimage {
+  width: 50%;
+  height:90%;
+  margin:1rem;
+}
+
+.thirdrow {
+  text-align: left;
+  width:60%;
+  font-family "Space Mono";
+  color: rgb(52,73,94);
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.thirdrow h2 {
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+/* last section */
+.lastsection {
+    margin-left:1.5rem;
+    padding-left:0.5rem;
+    text-align: left;
+    margin-top:2.5rem;
+    display: flex;
+    font-size: 1.5rem;
+    border-top: solid hsl(210, 14%, 39%);
+  /*  border-bottom: solid hsl(210, 14%, 39%); */
+    padding-bottom: 2rem
+    margin-bottom: 1rem;
+}
+.lastsection p{
+  padding-right: 20rem;
+  margin-right: 3rem;
+}
+#h5term {
+  padding-left: 15rem;
+  margin-left: 2rem;
+  color: hsl(210, 14%, 39%);
+  padding-right: 0.5rem;
+}
+
+#h5privacy {
+  padding-left: 1.5rem;
+  padding-right:0.5rem;
+}
+
+.fontaw {
+  display: flex;
+  align-content: center;
+  margin-left: 2rem;
+  border-bottom: solid hsl(210, 14%, 39%);
+}
+.fontaw i{
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+/* Mobile settings */
+#mobile {
+  width:100% ;
+
+}
+.mobileheader {
+  height: 64px;
+  display: flex;
+  align-content: center;
+}
+.mobileimg {
+  height:32px ;
+  width:32px;
+  display: inline;
+  padding-right: 1rem;
+  padding-left:1rem;
+  margin-right:0.5rem;
+  transition: width 4s, height 4s, transform 4s;
+}
+.mobileimg:hover {
+  transform : rotate(180deg);
+}
+.mobilelearnimg {
+  width:100%;
+  height:180px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.mobilesection1 {
+  display: block;
+  background-color: #d3d3d3;
+  margin-right: 1.5rem;
+  margin-left: 1rem;
+  color: #696969;
+  align-items: center;
+  justify-content: left;
+  font-family: lato;
+  font-size: 1rem;
+  font-weight:bolder;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.mobilesection1 h1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display:inline-block;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.mobilesection1 p {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+.mobilesection1 h3 {
+     margin-top: 0.5rem;
+     padding-top: 1.5rem;
+     padding-bottom:1.5rem;
+     margin-bottom: 0.5rem;
+     height: 2rem;
+     width: 80%;
+     background-color: #696969;
+     color: white;
+     font-family: roboto;
+     text-align: center;
+     padding-left: 1rem;
+     margin-left: 1rem;
+     border-radius: 10px;
+  }
+  .mobilesection2 {
+    margin-top:16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-family: loto;
+    font-size:1.75rem;
+    color: hsl(210, 13%, 27%);
+  }
+.mobileimg2 {
+     width: 100%;
+     margin-top: 16px;
+     margin-right: 16px;
+     margin-bototm: 16px;
+
+}
+.mobilesection2 a {
+  margin-bottom:16px;
+}
+.mobilesection3 {
+  margin-top:16px;
+  margin-bottom:24px;
+}
+.mobilesection3 h1{
+  padding-top:16px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+/*  font-family: monospace;*/
+}
+.mobilesection3 h2 {
+  padding:16px;
+  margin-left:16px;
+  margin-bottom: 8px;
+  text-align: left;
+  background-color: hsl(210, 2%, 64%);
+  color: hsl(210, 13%, 27%);
+}
+.mobilesection4 h1 {
+  padding-top:32px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 3rem;
+/*  font-family: monospace;*/
+  font-weight: bolder;
+  margin:2px;
+}
+.mobilevideo {
+  margin-bottom: 24px;
+}
+.mobilesection4 p {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: center;
+  text-align: left;
+  margin-left: 16px;
+}
+/* Media Queries section */
 /* Desktop Section */
-@media only screen and (min-width: 1020px) {
-  .mobile {
+@media only screen and (min-width: 681px) {
+  #mobile {
     display: none;
   }
+}/* Mobile Section */
+@media only screen and (min-width:200px) and (max-width: 680px) {
+#desktop {
+  display: none;
 }
-/* Mobile Section */
-@media only screen and (min-width:200px) and (max-width: 400px) {
-  .header h2, #c1,#c2 {
-    display: none;
-  }
 
 }
